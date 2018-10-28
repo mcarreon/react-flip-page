@@ -389,7 +389,7 @@ class FlipPage extends Component {
     if (this.props.flipOnLeave) {
       this.stopMoving();
     } else {
-      this.reset();
+      // this.reset();
     }
   }
 
