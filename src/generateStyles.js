@@ -83,6 +83,7 @@ export default (
     left: orientation === 'vertical' ? 0 : '-100%',
     position: 'absolute',
     right: 0,
+    height: 100%,
     top: orientation === 'vertical' ? '-100%' : 0,
   },
   gradient: {
