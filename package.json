@@ -32,11 +32,12 @@
     "scripts": {
         "prebuild": "check-dependencies",
         "pretest": "check-dependencies",
+        "prepare": "npm run build",
         "build": "webpack",
         "lint": "eslint --ext .jsx --ext .js --ignore-pattern *spec* --quiet src/",
         "test": "jest",
         "test:coverage": "jest --coverage",
-        "prepare": "yarn run build"
+        "prepare": "npm run build"
     },
     "precommit": [
         "lint",
